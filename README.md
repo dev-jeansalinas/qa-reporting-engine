@@ -115,10 +115,13 @@ python run.py
 ```
 
 # Evidencias
+<details>
+    <summary>Ver Capturas de Reportes (Excel/Word)</summary>
 
 ## Excel
-
-
+<img width="1825" height="439" alt="image" src="https://github.com/user-attachments/assets/10237d9c-9cc0-4993-8299-aa1d6757f6ec" />
 
 ## Word
+<img width="815" height="1388" alt="image" src="https://github.com/user-attachments/assets/c7a90700-cc7a-4395-a6ef-075bf5fc9bf5" />
+</details>
 
