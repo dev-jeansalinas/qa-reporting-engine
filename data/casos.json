@@ -1,0 +1,10 @@
+[
+    {
+        "nombre_caso": "Nombre del Caso de Prueba",
+        "descripcion": "Descripción del caso de prueba",
+        "pasos": "Pasos para ejecutar el caso de prueba",
+        "datos": "Datos necesarios para ejecutar el caso de prueba",
+        "resultado_esperado": "Resultado esperado del caso de prueba",
+        "resultado_obtenido": "Resultado obtenido del caso de prueba"
+    }
+]

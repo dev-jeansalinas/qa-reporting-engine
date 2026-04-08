@@ -1,0 +1,10 @@
+{
+    "modulo": "Nombre del Módulo",
+    "cliente": "Nombre del Cliente",
+    "tester": "Nombre del Tester",
+    "descripcion": "Descripción del proyecto",
+    "version": "Versión del módulo",
+    "inicio_pruebas": "Fecha de inicio",
+    "fin_pruebas": "Fecha de fin",
+    "alojamiento": "Alojamiento del módulo"
+}
