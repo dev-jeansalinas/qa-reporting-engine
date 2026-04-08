@@ -64,7 +64,7 @@ def generar_excel_snva(
             print(f"[-] Error al procesar el logo: {e}")
 
     # Estructura de celdas del encabezado
-    hoja.merge_cells("G4:K4")  # Cliente
+    hoja.merge_cells("G4:I4")  # Cliente
     hoja.merge_cells("F5:F7")  # Etiqueta Descripción
     hoja.merge_cells("G5:I7")  # Valor Descripción
     hoja.merge_cells("G8:K8")  # Tester
@@ -76,6 +76,7 @@ def generar_excel_snva(
 
     # Sección Versión y Fechas
     metadatos = [
+        ("J4", "Módulo", modulo),
         ("J5", "Versión", version),
         ("J6", "Fecha Inicio", inicio_pruebas),
         ("J7", "Fecha Fin", fin_pruebas),
@@ -93,7 +94,7 @@ def generar_excel_snva(
             celda.alignment = Alignment(
                 horizontal="left", vertical="center", wrap_text=True, indent=1
             )
-            if celda.column == 6 or (celda.column == 10 and celda.row in [5, 6, 7]):
+            if celda.column == 6 or (celda.column == 10 and celda.row in [4, 5, 6, 7]):
                 celda.fill, celda.font = color_purpura, fuente_blanca_negrita
             else:
                 celda.font = fuente_arial

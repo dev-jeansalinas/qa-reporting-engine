@@ -47,6 +47,8 @@ def generar_word_snva(datos_hu, info_proyecto, ruta_plantilla, ruta_salida):
         "{CLIENTE}": info_proyecto.get("cliente", "N/A"),
         "{VERSION}": str(info_proyecto.get("version", "N/A")),
         "{ALOJAMIENTO}": str(info_proyecto.get("alojamiento", "N/A")),
+        "{MODULO}": str(info_proyecto.get("modulo", "N/A")),
+        "{DESCRIPCION}": str(info_proyecto.get("descripcion","N/A")),
         "{ANALISTA}": info_proyecto.get("tester", "N/A"),
         "{FECHA_INICIO}": info_proyecto.get("inicio_pruebas", "N/A"),
         "{FECHA_FIN}": info_proyecto.get("fin_pruebas", "N/A"),
