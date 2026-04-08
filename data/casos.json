@@ -1,6 +1,6 @@
 [
     {
-        "nombre_caso": "Nombre del Caso de Prueba",
+        "nombre_caso": "Nombre del Caso de prueba",
         "descripcion": "Descripción del caso de prueba",
         "pasos": "Pasos para ejecutar el caso de prueba",
         "datos": "Datos necesarios para ejecutar el caso de prueba",
